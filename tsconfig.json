@@ -13,14 +13,12 @@
     "emitDeclarationOnly": true,
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
+    "allowSyntheticDefaultImports": true, // For supporting default imports.
     "types": [
       "mocha",
       "node"
     ]
   },
-  "include": [
-    "./src/**/*"
-  ],
   "exclude": [
     "./node_modules"
   ]

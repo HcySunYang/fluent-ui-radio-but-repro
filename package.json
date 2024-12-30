@@ -1,5 +1,6 @@
 {
   "name": "fluent-ui-radio-bug-repro",
+  "type": "module",
   "scripts": {
     "start": "esbuild ./index.ts --outdir=./ --bundle --servedir=./"
   },
@@ -9,6 +10,7 @@
   },
   "devDependencies": {
     "@fluentui/tokens": "1.0.0-alpha.20",
-    "esbuild": "^0.24.0"
+    "esbuild": "^0.24.0",
+    "typescript": "^5.7.2"
   }
 }
